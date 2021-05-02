@@ -11,6 +11,11 @@
 - [Hello world starter](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/)
 - [Gatsby Plugin Library](https://www.gatsbyjs.com/plugins/)
 - [React icons](https://react-icons.github.io/react-icons/)
+- [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image)
+- [Migrating from gatsby-image to gatsby-plugin-image](https://www.gatsbyjs.com/docs/reference/release-notes/image-migration-guide/)
+- [Gatsby Image plugin](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#restrictions-on-using-staticimage)
+- [Completely Free online photo editing](https://www10.lunapic.com/editor/)
+- []()
 
 -----
 
@@ -58,14 +63,24 @@ Make sure such content-types exist in your Strapi application. Or replace/delete
 
 ```javascript
 {
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `http://localhost:1337`,
-        queryLimit: 1000, // Default to 100
-        // contentTypes: [`jobs`, `projects`, `blogs`, ],
-        //singleTypes:[`about` ]
-        contentTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [`about`],
-      },
-    },
+  resolve: `gatsby-source-strapi`,
+    options
+:
+  {
+    apiURL: `http://localhost:1337`,
+      queryLimit
+  :
+    1000, // Default to 100
+      // contentTypes: [`jobs`, `projects`, `blogs`, ],
+      //singleTypes:[`about` ]
+      contentTypes
+  :
+    [`jobs`, `projects`, `blogs`],
+      singleTypes
+  :
+    [`about`],
+  }
+,
+}
+,
 ```
