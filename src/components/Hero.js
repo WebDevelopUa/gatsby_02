@@ -8,7 +8,7 @@ const query = graphql`
   {
     file(relativePath: {eq: "hero.png"}) {
       childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED)
+       gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
       }
     }
   }
