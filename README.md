@@ -19,6 +19,7 @@
 - [Strapi Quick Start Guide](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
 - [gatsby-source-strapi](https://www.npmjs.com/package/gatsby-source-strapi)
 - [Getting Started with Gatsby](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/gatsby.html#create-a-gatsby-app)
+- [prop-types](https://www.npmjs.com/package/prop-types)
 - []()
 
 -----
