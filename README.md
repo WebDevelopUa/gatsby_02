@@ -4,6 +4,7 @@
 
 * ## [DEMO link of Front-end]()
 * ## [Back-end link]()
+* ## [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
 
 - [Gatsby 3.0](https://www.gatsbyjs.com)
 - [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
@@ -15,6 +16,9 @@
 - [Migrating from gatsby-image to gatsby-plugin-image](https://www.gatsbyjs.com/docs/reference/release-notes/image-migration-guide/)
 - [Gatsby Image plugin](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#restrictions-on-using-staticimage)
 - [Completely Free online photo editing](https://www10.lunapic.com/editor/)
+- [Strapi Quick Start Guide](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [gatsby-source-strapi](https://www.npmjs.com/package/gatsby-source-strapi)
+- [Getting Started with Gatsby](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/gatsby.html#create-a-gatsby-app)
 - []()
 
 -----
@@ -61,26 +65,28 @@ gatsby develop
 
 Make sure such content-types exist in your Strapi application. Or replace/delete them in ```gatsby-config.js```
 
-```javascript
-{
-  resolve: `gatsby-source-strapi`,
-    options
-:
-  {
-    apiURL: `http://localhost:1337`,
-      queryLimit
-  :
-    1000, // Default to 100
-      // contentTypes: [`jobs`, `projects`, `blogs`, ],
-      //singleTypes:[`about` ]
-      contentTypes
-  :
-    [`jobs`, `projects`, `blogs`],
-      singleTypes
-  :
-    [`about`],
-  }
-,
-}
-,
 ```
+{  
+  resolve: `gatsby-source-strapi`,
+    options:  {
+    apiURL: `http://localhost:1337`,
+      queryLimit: 1000, // Default to 100
+          // contentTypes: [`jobs`, `projects`, `blogs`, ],
+          // singleTypes:[`about`]
+      contentTypes: [`jobs`, `projects`, `blogs`],
+      singleTypes: [`about`],
+  },
+},
+```
+
+# [Strapi Back-end](https://strapi.io/)
+
+### Clone the [repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api) or Run in terminal in separate directory
+
+``` 
+npx create-strapi-app gatsby_02-strapi_api --quickstart
+```
+
+### Check the result:
+
+[localhost:1337/admin](http://localhost:1337/admin)
