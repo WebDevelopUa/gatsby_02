@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
-import Jobs from "../components/Jobs";
+import Job from "../components/Job";
 import Projects from "../components/Projects";
 import Blogs from "../components/Blogs";
 
@@ -11,4 +11,5 @@ export default () =>
   <Layout>
     <Hero />
     <Services />
+    <Job />
   </Layout>;
