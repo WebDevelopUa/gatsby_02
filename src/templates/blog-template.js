@@ -10,8 +10,18 @@ export const query = graphql`
   }
 `;
 
-const ComponentName = () => <Layout>
-  <h2>blog post template page</h2>
-</Layout>;
+const ComponentName = ({ data }) => {
+  const { content } = data.blog;
+
+  return <Layout>
+    <section className="blog-template">
+      <div className="section-center">
+        <article className="blog-content">
+          {content}
+        </article>
+      </div>
+    </section>
+  </Layout>;
+};
 
 export default ComponentName;
