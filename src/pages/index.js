@@ -31,7 +31,6 @@ export const query = graphql`
      allStrapiBlogSections(sort: {fields: date, order: DESC}) {
       nodes {
         slug
-        content
         description
         date(formatString: "MMM Do, YYYY")
         id
