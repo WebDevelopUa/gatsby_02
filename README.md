@@ -2,8 +2,7 @@
 
 ### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
 
-* ## [DEMO link of Front-end]()
-* ## [Back-end link]()
+* ## [DEMO link of Front-end]() - require [localhost:1337](http://localhost:1337), run Backend:
 * ## [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
 
 - [Gatsby 3.0](https://www.gatsbyjs.com)
