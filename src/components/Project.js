@@ -1,5 +1,4 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
@@ -24,7 +23,5 @@ const Project = ({ description, title, url, github, stack, image, index }) => {
     </div>
   </article>;
 };
-
-// Project.propTypes = {};
 
 export default Project;
