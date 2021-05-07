@@ -39,13 +39,13 @@ const Seo = ({ title, description }) => {
   return <Helmet htmlAttributes={{ lang: "en" }} title={`${title} | ${siteTitle}`}>
     <meta name="description" content={description || siteDescription} />
     <meta name="author" content={author} />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content={title} />
     <meta name="twitter:creator" content={twitterUsername} />
     <meta property="og:url" content={siteUrl} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={siteDescription} />
+    <meta property="og:image" content={`${siteUrl}${image}`} />
   </Helmet>;
 };
 
