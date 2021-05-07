@@ -20,6 +20,7 @@
 - [Getting Started with Gatsby](https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/gatsby.html#create-a-gatsby-app)
 - [prop-types](https://www.npmjs.com/package/prop-types)
 - [react-markdown](https://www.npmjs.com/package/react-markdown)
+- [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/)
 
 -----
 

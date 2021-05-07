@@ -4,7 +4,7 @@ Fonts
 ===============
 */
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
-
+/* alternative is to prefetch a fonts using gatsby-plugin-webfonts: https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/ */
 /*
 ===============
 Variables
@@ -305,7 +305,7 @@ Navbar
 
     .nav-links a:hover {
         color: var(--clr-primary-5);
-        box-shadow: 0px 2px var(--clr-primary-5);
+        box-shadow: 0 2px var(--clr-primary-5);
     }
 
     .nav-center {

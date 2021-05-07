@@ -40,20 +40,20 @@ module.exports = {
         singleTypes: [`About-page`],
         contentTypes: [`Job-sections`, `Projects-sections`, `Blog-sections`]
       }
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["400", "700"]
+            },
+            { family: "Open Sans" }
+          ]
+        }
+      }
     }
-    // {
-    //   resolve: `gatsby-plugin-webfonts`,
-    //   options: {
-    //     fonts: {
-    //       google: [
-    //         {
-    //           family: "Roboto",
-    //           variants: ["400", "700"],
-    //         },
-    //         { family: "Open Sans" },
-    //       ],
-    //     },
-    //   },
-    // },
   ]
 };
