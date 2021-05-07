@@ -2,8 +2,10 @@
 
 ### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
 
-* ## [DEMO link of Front-end]() - require [localhost:1337](http://localhost:1337), run Backend:
-* ## [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
+## [DEMO link of Front-end](https://gatsby-v3-strapi-frontend.netlify.app/) deployed on Netlify
+
+[localhost:8000](http://localhost:8000) version of Frontend requires [localhost:1337](http://localhost:1337) => run
+Backend: [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
 
 - [Gatsby 3.0](https://www.gatsbyjs.com)
 - [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
@@ -56,6 +58,37 @@ gatsby develop
 - [localhost:8000](http://localhost:8000)
 - [localhost:8000/___graphql](http://localhost:8000/___graphql)
 
+--------
+
+# Deployment
+
+Using CI + localhost Strapi backend:
+
+``` 
+15:06:33	error "gatsby-source-strapi" threw an error while running the sourceNodes lifecycle:
+15:06:33	connect ECONNREFUSED 127.0.0.1:1337
+15:06:33	
+15:06:33	  Error: connect ECONNREFUSED 127.0.0.1:1337
+15:06:33	
+15:06:33	not finished source and transform nodes - 0.104s
+15:06:34	npm ERR! code ELIFECYCLE
+15:06:34	npm ERR! errno 1
+15:06:34	npm ERR! gatsby-starter-hello-world@0.1.0 build: `gatsby build`
+15:06:34	npm ERR! Exit status 1
+15:06:34	npm ERR! 
+15:06:34	npm ERR! Failed at the gatsby-starter-hello-world@0.1.0 build script.
+15:06:34	npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+15:06:34	npm ERR! A complete log of this run can be found in:
+15:06:34	npm ERR!     /vercel/.npm/_logs/2021-05-07T12_06_34_397Z-debug.log
+```
+
+So, you need to Deploy [backend project](https://github.com/WebDevelopUa/gatsby_02-strapi_api) first or Build project
+locally and push build ```public``` folder to:
+
+- [Netlify](https://app.netlify.com/)
+- or
+- [Vercel](https://vercel.com/)
+
 -----
 -----
 
@@ -64,8 +97,7 @@ gatsby develop
 -----
 -----
 
-Make sure such content-types exist in your Strapi application. 
-Or replace/delete them in ```gatsby-config.js```
+Make sure such content-types exist in your Strapi application. Or replace/delete them in ```gatsby-config.js```
 Make changes, restart the server
 
 ```
@@ -80,7 +112,7 @@ Make changes, restart the server
 },
 ```
 
-# [Strapi Back-end](https://strapi.io/)
+# [Strapi](https://strapi.io/) backend
 
 ### Clone the [repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api) or Run in terminal in separate directory
 
