@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  // SEO data
+  // Seo data
   siteMetadata: {
     title: "Simple Gatsby 3 Website + Strapi Backend",
     description: "Simple pet-project generated using gatsby-starter-hello-world starter & Strapi Backend & Formspree contact form service",

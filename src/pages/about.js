@@ -10,7 +10,7 @@ import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 import Title from "../components/Title";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 export const query = graphql`
   {
@@ -41,7 +41,7 @@ const About = ({ data: { about: { nodes } } }) => {
   const alt = `Beautiful sunset`;
 
   return <Layout>
-    <SEO title={pageTitle} description={pageDescription} />
+    <Seo title={pageTitle} description={pageDescription} />
     <section className="about-page">
       <div className="section-center about-center">
         <GatsbyImage alt={alt} image={imageData} className="about-img" />

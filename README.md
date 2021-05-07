@@ -31,8 +31,9 @@
 - [react-markdown](https://www.npmjs.com/package/react-markdown)
 - [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/)
 - [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/)
-- [Adding an SEO Component](https://www.gatsbyjs.com/docs/add-seo-component/)
+- [Adding an Seo Component](https://www.gatsbyjs.com/docs/add-seo-component/)
 - [Card Validator - Twitter cards](https://cards-dev.twitter.com/validator)
+- [gatsby-plugin-sitemap](https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/)
 
 -----
 
