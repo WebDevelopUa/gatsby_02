@@ -48,7 +48,7 @@ export const query = graphql`
   }
 `;
 
-export default ({ data }) => {
+export default function Home({ data }) {
   const pageTitle = `Homepage`;
   const {
     allStrapiProjectsSections: { nodes: projects },

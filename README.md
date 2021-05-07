@@ -134,3 +134,17 @@ npx create-strapi-app gatsby_02-strapi_api --quickstart
 ### Check the result:
 
 [localhost:1337/admin](http://localhost:1337/admin)
+
+
+-----
+
+> If you're having this error, simply downgrade your node version to LTS if you're above it. [link](https://github.com/postcss/postcss/issues/1455)
+
+``` 
+ ERROR 
+
+(node:7460) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module
+resolution of the package at *\node_modules\postcss\package.json.
+Update this package.json to use a subpath pattern like "./*".
+
+```

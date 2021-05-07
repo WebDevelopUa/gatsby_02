@@ -1,7 +1,7 @@
-import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import React from "react";
+import { FaCode, FaSketch, FaAndroid } from "react-icons/fa";
 
-export default [
+const servicesCollection = [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
@@ -20,4 +20,6 @@ export default [
     title: "app design",
     text: `Sed sed interdum leo. Praesent eget sapien at erat tincidunt mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur varius dapibus. Cras nisl nulla, suscipit euismod ex ac, faucibus venenatis turpis.`
   }
-]
+];
+
+export default servicesCollection;
