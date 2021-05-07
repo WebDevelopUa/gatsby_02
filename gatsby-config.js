@@ -7,16 +7,12 @@
 module.exports = {
   // SEO data
   siteMetadata: {
-    title: "Simple Gatsby 3 Website",
-    description: "Simple pet-project generated using gatsby-starter-hello-world starter",
+    title: "Simple Gatsby 3 Website + Strapi Backend",
+    description: "Simple pet-project generated using gatsby-starter-hello-world starter & Strapi Backend & Formspree contact form service",
     author: "@xxx",
     twitterUsername: "@xxx",
     image: "/twitter-img.png",
-    siteUrl: "https://xxx.netlify.app",
-    person: {
-      name: "xxx",
-      age: 22
-    }
+    siteUrl: "https://gatsby-v3-strapi-frontend.netlify.app"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

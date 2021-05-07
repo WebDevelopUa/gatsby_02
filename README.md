@@ -1,11 +1,18 @@
 # GatsbyJS 3 (Static site generator)
 
-### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
+### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter & [Strapi](https://strapi.io) Backend & [Formspree](https://formspree.io) contact form service
 
-## [DEMO link of Front-end](https://gatsby-v3-strapi-frontend.netlify.app/) deployed on Netlify
+## [DEMO link of Frontend](https://gatsby-v3-strapi-frontend.netlify.app/) deployed on Netlify
 
-[localhost:8000](http://localhost:8000) version of Frontend requires [localhost:1337](http://localhost:1337) => run
-Backend: [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
+- Image From External (CDN) Media Storage At [Cloudinary](https://cloudinary.com/)
+- Backend for Content and About page => [GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
+  => [localhost:1337](http://localhost:1337)
+- Backend for Contact page => [Formspree](https://formspree.io)
+- [Frontend](https://gatsby-v3-strapi-frontend.netlify.app) deployed on Netlify => ```public``` folder
+
+> [localhost:8000](http://localhost:8000) version of Frontend requires [localhost:1337](http://localhost:1337) => run Backend: [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi_api)
+
+-----------
 
 - [Gatsby 3.0](https://www.gatsbyjs.com)
 - [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
@@ -23,6 +30,9 @@ Backend: [Back-end GitHub repo](https://github.com/WebDevelopUa/gatsby_02-strapi
 - [prop-types](https://www.npmjs.com/package/prop-types)
 - [react-markdown](https://www.npmjs.com/package/react-markdown)
 - [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/)
+- [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/)
+- [Adding an SEO Component](https://www.gatsbyjs.com/docs/add-seo-component/)
+- [Card Validator - Twitter cards](https://cards-dev.twitter.com/validator)
 
 -----
 
@@ -31,8 +41,8 @@ Requirements:
 - [Node.js](https://nodejs.org/uk/)
 - [Strapi](https://strapi.io)
 - [Formspree](https://formspree.io) & feel free today!
-- [Favicon](https://favicon.io/favicon-generator/)
 - [Netlify](https://www.netlify.com)
+- [Favicon](https://favicon.io/favicon-generator/)
 
 -----
 

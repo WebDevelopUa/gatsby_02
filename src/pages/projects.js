@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { graphql } from "gatsby";
 import Projects from "../components/Projects";
+import SEO from "../components/SEO";
 
 export const query = graphql`
   {
@@ -26,11 +27,16 @@ export const query = graphql`
   }
 `;
 
-const ProjectsPage = ({ data: { allStrapiProjectsSections: { nodes: projects } } }) =>
-  <Layout>
+const ProjectsPage = ({ data: { allStrapiProjectsSections: { nodes: projects } } }) => {
+  const pageTitle = `Projects`;
+  const pageDescription = `Projects page`;
+
+  return <Layout>
+    <SEO title={pageTitle} description={pageDescription} />
     <section className="projects-page">
       <Projects projects={projects} title="all projects" />
     </section>
   </Layout>;
+};
 
 export default ProjectsPage;
